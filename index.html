@@ -9,12 +9,21 @@
     <h1>AI Fortune Teller 🔮</h1>
     <div>
       <form action="">
-        <input type="text" />
-        <input type="button" value="Tell me my luck" />
+        <input
+          type="text"
+          placeholder="Prediction topic..."
+          autocomplete="off"
+          autofocus
+          required
+        />
+        <input type="submit" value="Tell me my luck" />
       </form>
       <p>i.e. Work, Friendship, Romance</p>
     </div>
-    <div class="fortune"></div>
+    <div id="fortune-paragraph">
+      Your work luck suggests challenges ahead, but remember, every obstacle is
+      an opportunity in disguise. Keep pushing forward with determination.
+    </div>
     <footer>
       This project was coded by
       <a
