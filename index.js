@@ -1,12 +1,23 @@
+function displayFortune(response) {
+  new Typewriter("#fortune", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 40,
+    cursor: "",
+  });
+}
+
 function generateFortune(event) {
   event.preventDefault();
 
-  new Typewriter("#fortune", {
-    strings: "Looking into your future...",
-    autoStart: true,
-    delay: 50,
-    cursor: "",
-  });
+  let userInput = document.querySelector("#user-input");
+  let apiKey = "5b4802f40a5b2aoe7a3t7b824a662fdf";
+  let prompt = `What is my luck regarding ${userInput.value}?`;
+  let context =
+    "You are a fortune teller who delivers fortunes in only two or three sentences. Not all fortunes are positive.";
+  let url = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  axios.get(url).then(displayFortune);
 }
 
 let formElement = document.querySelector("#fortune-input");
