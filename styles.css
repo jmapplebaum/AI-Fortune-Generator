@@ -1,5 +1,7 @@
 body {
-  background-color: #55423d;
+  background-image: url(celestial-body.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff3ec;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -22,12 +24,13 @@ a {
   text-decoration: none;
 }
 footer {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 40px;
   text-align: center;
 }
 .container {
-  background-color: #271c19;
+  background-color: rgba(0, 1, 4, 0.8);
+  border: 1px solid #fff3ec;
   border-radius: 10px;
   margin: 100px auto;
   max-width: 600px;
