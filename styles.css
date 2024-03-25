@@ -90,3 +90,17 @@ footer {
     visibility: hidden;
   }
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  .prediction-topic,
+  .luck-button,
+  .fortune-paragraph,
+  .fortune-form p {
+    font-size: 12px;
+  }
+  footer {
+    font-size: 14px;
+  }
+}
