@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-    <title>AI Generator by Jennah Applebaum</title>
+    <title>AI Fortune Teller by Jennah Applebaum</title>
   </head>
   <body>
     <div class="container">
@@ -19,7 +19,7 @@
           <form id="fortune-input">
             <input
               type="text"
-              placeholder="Prediction topic..."
+              placeholder="What information do you seek?"
               autocomplete="off"
               autofocus
               required
@@ -28,10 +28,10 @@
             />
             <input type="submit" value="Tell me my luck" class="luck-button" />
           </form>
-          <p>i.e. Work, Friendship, Romance</p>
+          <p>i.e. Work, Health, Romance</p>
         </div>
       </main>
-      <div class="fortune-paragraph" id="fortune"></div>
+      <div class="fortune-paragraph hidden" id="fortune"></div>
       <footer>
         This project was coded by
         <a

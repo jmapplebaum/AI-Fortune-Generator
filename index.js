@@ -17,6 +17,10 @@ function generateFortune(event) {
     "You are a fortune teller who delivers fortunes in only two or three sentences. Not all fortunes are positive.";
   let url = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let fortuneElement = document.querySelector("#fortune");
+  fortuneElement.classList.remove("hidden");
+  fortuneElement.innerHTML = `<div class="blink">⏳ Looking into your future...</div>`;
+
   axios.get(url).then(displayFortune);
 }
 

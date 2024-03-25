@@ -2,14 +2,13 @@ body {
   background-image: url(celestial-body.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff3ec;
+  color: #fffffe;
   font-family: Helvetica, Arial, sans-serif;
 }
 header {
   margin-bottom: 30px;
 }
 h1 {
-  color: #fffffe;
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
@@ -65,12 +64,29 @@ footer {
   width: 150px;
 }
 .fortune-paragraph {
-  background-color: #fff3ec;
+  background-color: #fffffe;
   border-left: 5px solid #9656a1;
   border-radius: 3px;
   color: #271c19;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 2;
   padding: 20px;
+}
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
