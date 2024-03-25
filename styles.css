@@ -96,14 +96,35 @@ footer {
   }
   .prediction-topic,
   .luck-button,
-  .fortune-paragraph,
-  .fortune-form p {
+  .fortune-paragraph {
     font-size: 12px;
   }
-  .fortune-form {
-    max-width: 95%;
+  .fortune-form p {
+    font-size: 10px;
+    text-align: center;
+  }
+  form {
+    display: grid;
+  }
+  .container {
+    padding: 30px;
+  }
+  .prediction-topic {
+    border-radius: 3px;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .luck-button {
+    border: 1px solid #271c19;
+    border-radius: 3px;
+    margin: 5px auto;
+    padding: 5px 5px;
+    width: 40%;
   }
   footer {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
