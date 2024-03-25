@@ -53,7 +53,7 @@ footer {
   font-size: 16px;
   height: 20px;
   padding: 16px;
-  width: 80%;
+  width: 60%;
 }
 .luck-button {
   background-color: #fffffe;
@@ -61,7 +61,7 @@ footer {
   border-radius: 50px;
   font-size: 16px;
   margin-left: 10px;
-  width: 150px;
+  width: 30%;
 }
 .fortune-paragraph {
   background-color: #fffffe;
@@ -92,7 +92,7 @@ footer {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .prediction-topic,
   .luck-button,
