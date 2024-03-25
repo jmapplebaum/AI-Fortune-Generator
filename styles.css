@@ -1,0 +1,72 @@
+body {
+  background-color: #55423d;
+  color: #fff3ec;
+  font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  color: #fffffe;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+form {
+  display: flex;
+}
+a {
+  color: #e78fb3;
+  text-decoration: none;
+}
+footer {
+  font-size: 14px;
+  margin-top: 40px;
+  text-align: center;
+}
+.container {
+  background-color: #271c19;
+  border-radius: 10px;
+  margin: 100px auto;
+  max-width: 600px;
+  padding: 80px;
+}
+.fortune-form {
+  background-color: #9656a1;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.fortune-form p {
+  color: #fffffe;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.prediction-topic {
+  background-color: #fffffe;
+  border: 1px solid #55423d;
+  border-radius: 50px;
+  font-size: 16px;
+  height: 20px;
+  padding: 16px;
+  width: 80%;
+}
+.luck-button {
+  background-color: #fffffe;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 150px;
+}
+.fortune-paragraph {
+  background-color: #fff3ec;
+  border-left: 5px solid #9656a1;
+  border-radius: 3px;
+  color: #271c19;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2;
+  padding: 20px;
+}
